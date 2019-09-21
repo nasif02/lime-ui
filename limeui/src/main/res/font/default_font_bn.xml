@@ -4,6 +4,6 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/roboto_regular" />
+        android:font="@font/solaimanlipi_regular" />
 
 </font-family>

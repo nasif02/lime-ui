@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/mSearch"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:visible="true"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/mShare"
+        app:showAsAction="never"
+        android:title="Tell a Friend"/>
+
+    <item
+        android:id="@+id/mRateUs"
+        app:showAsAction="never"
+        android:title="Rate Us"/>
+
+    <item
+        android:id="@+id/mMoreApps"
+        app:showAsAction="never"
+        android:title="More Free Apps"/>
+
+    <item
+        android:id="@+id/mFeedback"
+        app:showAsAction="never"
+        android:title="Feedback"/>
+
+    <item
+        android:id="@+id/mPrivacyPolicy"
+        app:showAsAction="never"
+        android:title="Privacy Policy"/>
+
+    <item
+        android:id="@+id/mAbout"
+        app:showAsAction="never"
+        android:title="About"/>
+
+
+</menu>

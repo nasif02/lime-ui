@@ -28,6 +28,7 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.github.nasif02:lime-color:bc6da1561c'
+    implementation 'com.github.nasif02:lime-strings:c6a927fe88'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

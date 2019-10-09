@@ -7,39 +7,39 @@
         android:id="@+id/mSearch"
         android:icon="@drawable/ic_search_black_24dp"
         android:visible="true"
-        android:title="Search"
+        android:title="@string/search"
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="always|collapseActionView" />
 
     <item
         android:id="@+id/mShare"
         app:showAsAction="never"
-        android:title="Tell a Friend"/>
+        android:title="@string/tell_a_friend"/>
 
     <item
         android:id="@+id/mRateUs"
         app:showAsAction="never"
-        android:title="Rate Us"/>
+        android:title="@string/rate_now"/>
 
     <item
         android:id="@+id/mMoreApps"
         app:showAsAction="never"
-        android:title="More Free Apps"/>
+        android:title="@string/free_apps"/>
 
     <item
         android:id="@+id/mFeedback"
         app:showAsAction="never"
-        android:title="Feedback"/>
+        android:title="@string/feedback"/>
 
     <item
         android:id="@+id/mPrivacyPolicy"
         app:showAsAction="never"
-        android:title="Privacy Policy"/>
+        android:title="@string/privacy_policy"/>
 
     <item
         android:id="@+id/mAbout"
         app:showAsAction="never"
-        android:title="About"/>
+        android:title="@string/about"/>
 
 
 </menu>

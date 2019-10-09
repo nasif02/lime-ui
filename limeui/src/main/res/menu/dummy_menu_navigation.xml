@@ -7,22 +7,22 @@
     <item
         android:id="@+id/mHome"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="Home"/>
+        android:title="@string/home"/>
 
     <item
         android:id="@+id/mFavorite"
         android:icon="@drawable/ic_favorite_black_24dp"
-        android:title="Favorite"/>
+        android:title="@string/favorite"/>
 
     <item
         android:id="@+id/mSettings"
         android:icon="@drawable/ic_settings_black_24dp"
-        android:title="Settings"/>
+        android:title="@string/settings"/>
 
     <item
-        android:id="@+id/mExtra"
+        android:id="@+id/mMore"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="Extra"/>
+        android:title="@string/more"/>
 
 
 

@@ -4,10 +4,10 @@ apply plugin: 'kotlin-kapt'
 
 android {
     namespace 'com.xlib.limeui'
-    compileSdkVersion 33
+    compileSdkVersion 34
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 34
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -34,7 +34,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'com.github.nasif02:lime-color:127e6541b1'
     implementation 'com.github.nasif02:lime-strings:3671286330'
 
